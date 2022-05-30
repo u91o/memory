@@ -1,0 +1,33 @@
+*memory.txt* Serving you the memories of another, simpler time.
+
+                _  _  _    _   _  _  _    __   ,_   _   _ ~
+               / |/ |/ |  |/  / |/ |/ |  /  \_/  |  |   | ~
+                 |  |  |_/|__/  |  |  |_/\__/    |_/ \_/| ~
+                                                       /| ~
+                                                       \| ~
+
+============================================================================
+CONFIGURATION                                               *memory-config*
+
+* the directory used to store session files 
+  let g:sessions_dir = "~/.vim/sessions/"
+
+============================================================================
+COMMANDS                                                           *memory*
+
+:SaveSession {session-name}                                  *:SaveSession*
+  Displays a list of available sessions and saves the current session as
+  the given {session-name}.
+
+:RestoreSession {session-name}                            *:RestoreSession*
+  Displays a list of available sessions and restores the selected session.
+
+:DeleteSession {session-name}                              *:DeleteSession*
+  Displays a list of available sessions and deletes the selected session.
+
+============================================================================
+LICENSE                                                    *memory-license*
+
+AGPLv3
+
+  vim:tw=78:ft=help:norl:
